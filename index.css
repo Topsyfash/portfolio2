@@ -209,6 +209,11 @@ a:visited{
     flex-wrap: wrap; */
     /* padding: 100px; */
 }
+.icon-skl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
  .skl {
     padding: 15px;
     background: rgba(241, 238, 238, 0.76);
@@ -565,6 +570,9 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: start;
+    }
+    .skills{
+        width:100%;
     }
     .skills-icon{
         padding: 50px;
