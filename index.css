@@ -455,6 +455,9 @@ footer{
  }
  
 @media screen and (max-width:992px) {
+    nav{
+        padding:2px
+    }
     .menu{
         display: block;
         /* padding: 5px;
@@ -549,7 +552,7 @@ footer{
     }
     ul{
         position: fixed;
-        top: 85px;
+        top: 83px;
         right: 0;
         width: 50%;
         height: 100vh;
