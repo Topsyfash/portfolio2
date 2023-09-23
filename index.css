@@ -365,15 +365,29 @@ a:visited{
     margin: 30px auto;
     text-align: center;
 }
-.contact-message input[type=text],input[type=email],textarea{
-    width: 60%;
+.contact-message input[type=text],input[type=email]{
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    background: transparent;
+    /* border: none; */
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    transition: 0.5s;
+    border-bottom: 1px solid #3a2741;
+    border-radius: 20px;
+}
+.contact-message textarea{
+    width: 100%;
     padding: 5px;
     font-size: 15px;
     background: transparent;
     /* border: none; */
     outline: none;
     transition: 0.5s;
-    border: 1px solid #00b4fc;
+    border: 1px solid #3a2741;
     border-radius: 20px;
 }
 .contact-message input:focus{
