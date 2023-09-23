@@ -507,6 +507,9 @@ footer{
         align-items: start;
         padding: 100px 20px;
     }
+    .skills{
+        width:100%
+        }
     .skills-icon{
         padding: 50px;
         grid-template-columns: repeat(2,1fr);
